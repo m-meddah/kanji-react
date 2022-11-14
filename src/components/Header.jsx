@@ -17,7 +17,7 @@ function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            KANJI
+            Kanji 漢字
           </Typography>
           <Button color="inherit">Login</Button>
         </Toolbar>

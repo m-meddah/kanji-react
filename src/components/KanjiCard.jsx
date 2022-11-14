@@ -12,24 +12,14 @@ function KanjiCard() {
           蛍 {/**kanji */}
         </Typography>
         <Typography sx={{ mb: 1.5 }} color="text.secondary">
-          <ul>
-            <li>kun reading: {/**kun_readings */} 
-              <ul>
-                <li>ほたる</li>
-              </ul>  
-            </li>
-            <li>ON reading: {/**on_readings */} 
-              <ul>
-                <li>ケイ</li>
-              </ul>
-            </li>
-          </ul> 
+          kunyomi: ほたる{/**kun_readings */}
+          <br></br>
+          ONYOMI: ケイ{/**on_readings */}
         </Typography>
         <Typography variant="body2">
-          <ul>{/**meanings */}
-            <li>lightning-bug</li>
-            <li>firefly</li>
-          </ul>
+          lightning-bug
+          <br></br>
+          firefly{/**meanings */}
         </Typography>
       </CardContent>
       <CardActions>
