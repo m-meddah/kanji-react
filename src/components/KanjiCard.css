@@ -1,0 +1,12 @@
+.kanji--card {
+  margin: 1rem auto;
+}
+
+kanji--kanji{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul{
+  list-style: none;
+  text-align: start;
+}
